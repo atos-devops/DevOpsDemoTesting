@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test name="Test">
+  <parameter name="DEV" value="8081"></parameter>
+  <parameter name="QA" value="8082"></parameter>
+  <parameter name="PROD" value="8083"></parameter>
+    <classes>
+      <class name="net.atos.Testing1.DemoTest"/>
+    </classes>
+  </test> <!-- Test1 -->
+</suite> <!-- Suite -->
